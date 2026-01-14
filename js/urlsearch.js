@@ -120,8 +120,7 @@ function finishSearch(hideSearchInfo = "false") {
   tryClick();
 }
 
-/*
-origo.api().on('load', 
+function urlsearch() {
   let poim = getUrlParam('poim') || getUrlParam('poi');
   const hideSearchInfo = getUrlParam('hideSearchInfo') === "true" ? "true" : "false";
   if (poim) {
@@ -140,5 +139,4 @@ origo.api().on('load',
 		  console.warn("Event listener: Element with ID 'hjl' not found.");
 	  }
   }
-);
-*/
+)
