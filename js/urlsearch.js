@@ -139,4 +139,4 @@ function urlsearch() {
 		  console.warn("Event listener: Element with ID 'hjl' not found.");
 	  }
   }
-)
+}
